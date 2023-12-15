@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "sd", "quantile", "mahalanobis", "uniroot", "t.test")
+importFrom("stats", "wilcox.test", "chisq.test", "mad", "median", "convolve")
+importFrom("MASS", "ginv")
+importFrom("rcbalance", "callrelax")
