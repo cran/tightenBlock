@@ -36,7 +36,7 @@ There is a debate about whether light daily alcohol consumption -- a single glas
 
 The example contains several attempts to detect unmeasured confounding bias, if present.  There is a secondary outcome thought to be unaffected by alcohol consumption, namely methylmercury levels in the blood, likely an indicator of the consumption of fish, not of alcohol; see Pedersen et al. (1994) and WHO (2021).  There are also three control groups, all with little present alcohol consumption, but with different uses of alcohol in the past; see the definition of variable grp above.
 
-The data are used as an example in Rosenbaum (2022, 2023, 2024).
+The data are used as an example in Rosenbaum (2022, 2023, 2025).
 
 }
 \source{
@@ -66,8 +66,8 @@ Statistician, 76(4), 346-352.
 
 Rosenbaum, P. R. (2023) <doi:10.1111/biom.13558> Sensitivity analyses informed by tests for bias in observational studies. Biometrics, 79(1), 475-487.
 
-Rosenbaum, P. R. (2024) Tightening an observational block design to form an
-optimally balanced subdesign.  Manuscript.
+Rosenbaum, P. R. (2025) <doi:10.1080/00031305.2024.2393630> Tightening blocks in complementary analyses of observational
+studies: Optimization algorithm and examples.  The American Statistician, 79:1, 1-9.
 
 Suh, I., Shaten, B. J., Cutler, J. A., and Kuller, L. H. (1992). Alcohol use and mortality from coronary heart disease: the role of high-density lipoprotein cholesterol. Annals of Internal Medicine 116, 881-887.
 <doi:10.7326/0003-4819-116-11-881>

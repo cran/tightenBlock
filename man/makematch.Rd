@@ -33,7 +33,7 @@ One positive integer, 1 for pair matching, 2 for matching two controls to each t
 An optional vector of costs used to penalize the control-control edges.  For instance, one might penalize the use of controls with low propensity scores.
 }
   \item{treatedcosts}{
-An optional vector of costs that penalize the treated-treated edges used for subset matching in Rosenbaum (2012,2024).  This option is available only if ncontrols=1.  If treatedcosts = NULL, then the cost is set to the largest element of costL, costR and controlcosts multiplied-by-large to prevent subset matching.  Otherwise, if treatedcosts is not NULL, then the ith coordinate of treatedcosts is the cost of not matching treated individual i.
+An optional vector of costs that penalize the treated-treated edges used for subset matching in Rosenbaum (2012,2025).  This option is available only if ncontrols=1.  If treatedcosts = NULL, then the cost is set to the largest element of costL, costR and controlcosts multiplied-by-large to prevent subset matching.  Otherwise, if treatedcosts is not NULL, then the ith coordinate of treatedcosts is the cost of not matching treated individual i.
 }
   \item{large}{A large positive number.  Used only if treatedcosts = NULL.  See treatedcosts.}
   \item{solver}{Determines the network optimization code that is used.  Options are solver="rrelaxiv" and solver="rlemon".  The Relax IV code of Bertsekas and Tseng (1988) is suggested, with solver="rrelaxiv", but is has an academic license, so various issues may arise.  The makematch() function calls the callrelax() function in
@@ -41,7 +41,7 @@ Pimentel's rcbalance package, whose documentation provides additional details, i
 }
 \details{
 Implements the two-criteria matching method of Zhang et al (2022)
-with the possible addition of edges that permit some treated individuals to be removed rather than matched (Rosenbaum 2012).  It is helpful to look at Figure 1 in Zhang et al. (2023) before using this function and Figure 4 in Rosenbaum (2024).
+with the possible addition of edges that permit some treated individuals to be removed rather than matched (Rosenbaum 2012).  It is helpful to look at Figure 1 in Zhang et al. (2023) before using this function and Figure 4 in Rosenbaum (2025).
 }
 \value{
 Returns a matched data set.  The matched rows of dat are returned with a new variable mset indicating the matched set.  The returned file is sorted by mset and z.
@@ -70,8 +70,8 @@ Rosenbaum, P. R. (2012) <doi:10.1198/jcgs.2011.09219> Optimal matching of an opt
 
 Rosenbaum, P. R. (2020) <doi:10.1007/978-3-030-46405-9> Design of Observational Studies (2nd Edition).  New York: Springer.
 
-Rosenbaum, P. R. (2024) Tightening an observational block design to form an
-optimally balanced subdesign.  Manuscript.
+Rosenbaum, P. R. (2025) <doi:10.1080/00031305.2024.2393630> Tightening blocks in complementary analyses of observational
+studies: Optimization algorithm and examples.  The American Statistician, 79:1, 1-9.
 
 Yang, D., Small, D. S., Silber, J. H. and Rosenbaum, P. R. (2012)
 <doi:10.1111/j.1541-0420.2011.01691.x> Optimal matching with minimal deviation from fine balance in a study of obesity and surgical outcomes. Biometrics, 68, 628-636. (Extension of fine balance useful when fine balance is infeasible. Comes as close as possible to fine balance. Implemented in makematch() by placing a large near-exact

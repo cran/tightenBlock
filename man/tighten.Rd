@@ -122,8 +122,8 @@ Rosenbaum, P. R. (2012) <doi:10.1198/jcgs.2011.09219> Optimal matching of an opt
 Rosenbaum, P. R. (2020) <doi:10.1007/978-3-030-46405-9> Design of Observational Studies (2nd Edition).  New York: Springer.  (Discusses fine balance and the
 rank-based Mahalanobis distance.)
 
-Rosenbaum, P. R. (2024) Tightening an observational block design to form an
-optimally balanced subdesign.  Manuscript.
+Rosenbaum, P. R. (2025) <doi:10.1080/00031305.2024.2393630> Tightening blocks in complementary analyses of observational
+studies: Optimization algorithm and examples.  The American Statistician, 79:1, 1-9.
 
 Yang, D., Small, D. S., Silber, J. H. and Rosenbaum, P. R. (2012)
 <doi:10.1111/j.1541-0420.2011.01691.x> Optimal matching with minimal deviation from fine balance in a study of obesity and surgical outcomes. Biometrics, 68, 628-636. (Extension of fine balance useful when fine balance is infeasible. Comes as close as possible to fine balance.  )

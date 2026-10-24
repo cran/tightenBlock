@@ -27,8 +27,8 @@ Rosenbaum, P. R., Ross, R. N. and Silber, J. H. (2007) <10.1198/0162145060000010
 
 Rosenbaum, P. R. (2012) <doi:10.1198/jcgs.2011.09219> Optimal matching of an optimally chosen subset in observational studies. Journal of Computational and Graphical Statistics, 21(1), 57-71.
 
-Rosenbaum, P. R. (2024) Tightening an observational block design to form an
-optimally balanced subdesign.  Manuscript.
+Rosenbaum, P. R. (2025) <doi:10.1080/00031305.2024.2393630> Tightening blocks in complementary analyses of observational
+studies: Optimization algorithm and examples.  The American Statistician, 79:1, 1-9.
 
 Zhang, B., D. S. Small, K. B. Lasater, M. McHugh, J. H. Silber, and P. R. Rosenbaum (2023) <doi:10.1080/01621459.2021.1981337> Matching one sample according to two criteria in observational studies. Journal of the American Statistical Association, 118, 1140-1151.
 }
